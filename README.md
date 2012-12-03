@@ -5,7 +5,13 @@ JQuery
 
 Specify a function to execute when the DOM is fully loaded
 
-    $(document).ready(handler)
-    $().ready(handler) (this is not recommended)
-    $(handler)
+    $(document).ready()
+    $().ready() (this is not recommended)
+
+
+
+Use delegate not live
+
+    $(foo).live('click')
+    $(foo).delgate('element','click')
 
